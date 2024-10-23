@@ -1,0 +1,39 @@
+p {
+  text-align: center;
+}
+
+.table-wrapper {
+  max-width: 50rem;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 480px) {
+  .table-wrapper {
+    width: 300px;
+    overflow-x: scroll;
+  }
+}
